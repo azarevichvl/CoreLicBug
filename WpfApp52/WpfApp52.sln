@@ -6,10 +6,13 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfCustomControlLibrary1Core", "WpfCustomControlLibrary1\WpfCustomControlLibrary1Core.csproj", "{25B8B9A4-D04E-42CE-80A8-5FE6F5B23216}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppNetFramework", "WpfAppNetFramework\WpfAppNetFramework.csproj", "{A645673C-BA63-42BF-B1B8-8C0C3E17407C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F047FC5E-1FBD-4C30-8BCB-A991B5B585AB} = {F047FC5E-1FBD-4C30-8BCB-A991B5B585AB}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCustomControlLibraryFramework", "WpfCustomControlLibrary2\WpfCustomControlLibraryFramework.csproj", "{F047FC5E-1FBD-4C30-8BCB-A991B5B585AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppNET5App", "WpfAppNET5App\WpfAppNET5App.csproj", "{8EB39C57-2A30-4C10-A0B2-845C68EEA872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAppNET5App", "WpfAppNET5App\WpfAppNET5App.csproj", "{8EB39C57-2A30-4C10-A0B2-845C68EEA872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
