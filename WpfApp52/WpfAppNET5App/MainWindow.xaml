@@ -3,13 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp52"
-        xmlns:WpfCustomControlLibrary1="clr-namespace:WpfCustomControlLibrary1;assembly=WpfCustomControlLibrary1" x:Class="WpfApp52.MainWindow"
+        xmlns:local="clr-namespace:WpfAppNET5App"
+        xmlns:WpfCustomControlLibrary1Core="clr-namespace:WpfCustomControlLibrary1Core;assembly=WpfCustomControlLibrary1Core" x:Class="WpfAppNET5App.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-	<Grid>
+    <Grid>
 
-		<WpfCustomControlLibrary1:CustomControl1/>
+        <WpfCustomControlLibrary1Core:CustomControl1/>
 
-	</Grid>
+    </Grid>
 </Window>

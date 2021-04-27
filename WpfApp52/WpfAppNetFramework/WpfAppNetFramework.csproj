@@ -51,7 +51,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="WpfCustomControlLibrary2, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\WpfCustomControlLibrary2\bin\Release\WpfCustomControlLibrary2.dll</HintPath>
+      <HintPath>..\WpfCustomControlLibrary2\bin\Debug\WpfCustomControlLibrary2.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

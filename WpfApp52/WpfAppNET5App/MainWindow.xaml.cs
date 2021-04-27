@@ -12,9 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WpfCustomControlLibrary1;
 
-namespace WpfApp52
+namespace WpfAppNET5App
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,7 +23,6 @@ namespace WpfApp52
         public MainWindow()
         {
             InitializeComponent();
-            ///var ttt1 =typeof(CustomControl1).AssemblyQualifiedName; // WpfCustomControlLibrary1.CustomControl1, WpfCustomControlLibrary1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=50f4576d5e2012eb
         }
     }
 }
